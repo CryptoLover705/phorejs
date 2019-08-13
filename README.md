@@ -1,4 +1,4 @@
-# SmartCrytoTechjs
+# SmartCryptoTechjs
 SmartCryptoTech Javascript Library. This is a work in progress. 
 
 ## Install
