@@ -1,15 +1,15 @@
-# phorejs
-Phore Javascript Library. This is a work in progress. 
+# SmartCrytoTechjs
+SmartCryptoTech Javascript Library. This is a work in progress. 
 
 ## Install
 
 ```
-git clone https://github.com/phoreproject/phorejs.git
-cd phorejs
+git clone https://github.com/smartcryptotech/smartcryptotechjs.git
+cd smartcryptotechjs
 
 ```
 
-## Create a Phore Private Key (WIF and Hex) and Public Key Address
+## Create a SmartCryptoTech Private Key (WIF and Hex) and Public Key Address
 
 ```
 node app.js
@@ -21,7 +21,7 @@ console.log("Private Key (Hex): " + ck.privateKey.toString('hex'))
 console.log("Address: " + ck.publicAddress) // This is your pubKey for below
 ```
 
-## Generate a QR Code for a Phore Public Key Address
+## Generate a QR Code for a SmartCryptoTech Public Key Address
 
 ```
 node qr.js
@@ -31,9 +31,9 @@ This will log out a QR Code in data format to the console. Or replace the value 
 ```
 var qr = require('qr-encode')
 
-var pubKey = "PF7wMvtSphVsP5noV6bHF6EtgZnxCnzbYo"; // Replace This with your pubKey
+var pubKey = "SqvLsdHtaP1CWfcfE2GG1a8ERPY8CNna1m"; // Replace This with your pubKey
 
-var dataURI = qr(pubKey, {type: 6, size: 6, level: 'Q'})
+var dataURI = qr(pubKey, {type: 7, size: 7, level: 'V'})
 console.log(dataURI)
 
 //If using in browsers:
