@@ -1,26 +1,26 @@
 {
-  "name": "phorejs",
+  "name": "smartcryptotechjs",
   "version": "1.0.0",
-  "description": "Phore Javascript Library",
+  "description": "SmartCryptoTech Javascript Library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phoreproject/phorejs.git"
+    "url": "git+https://github.com/smartcryptotech/smartcryptotechjs.git"
   },
   "keywords": [
-    "phore",
-    "phr",
+    "smartcryptotech",
+    "sct",
     "blockchain"
   ],
-  "author": "Greg Marlin",
+  "author": "CryptoLover705",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/phoreproject/phorejs/issues"
+    "url": "https://github.com/smartcryptotech/smartcryptotechjs/issues"
   },
-  "homepage": "https://github.com/phoreproject/phorejs#readme",
+  "homepage": "https://github.com/smartcryptotech/smartcryptotechjs#readme",
   "dependencies": {
     "coininfo": "^4.0.0",
     "coinkey": "^3.0.0",
