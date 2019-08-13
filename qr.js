@@ -1,8 +1,8 @@
 var qr = require('qr-encode')
 
-var pubKey = "PF7wMvtSphVsP5noV6bHF6EtgZnxCnzbYo";
+var pubKey = "SqvLsdHtaP1CWfcfE2GG1a8ERPY8CNna1m";
 
-var dataURI = qr(pubKey, {type: 6, size: 6, level: 'Q'})
+var dataURI = qr(pubKey, {type: 7, size: 7, level: 'V'})
 console.log(dataURI)
 
 //If using in browsers:
